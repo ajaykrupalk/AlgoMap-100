@@ -16,7 +16,7 @@ var maxProfit = function (prices) {
         max = Math.max(max,prices[r]-prices[l])
         r += 1
     }
-    console.log(l,r,max)
+    console.log(max)
 }
 
 maxProfit([7,1,5,3,6,4])
