@@ -5,7 +5,7 @@
  * 1. Define a hashmap
  * 2. Count each element in magazine
  * 3. Then iterate through ransomNote
- * 4. If value in hashMap is greater than 0 increement it
+ * 4. If value in hashMap is greater than 0 decreement it
  * 5. Else return false, Otherwise return true
  */
 var ransomNote = function (ransomNote, magazine) {
