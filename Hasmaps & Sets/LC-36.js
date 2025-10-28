@@ -10,6 +10,7 @@
  * 6. Iterate from startRow to startRow+3 and startCol to startCol+3
  * 7. Initialize a set and iterate through all the elements in the sub-boxes
  * 8. If elements are already present in the set return false, else add to the set
+ * 9. Finally return true if none of the conditions failed
  */
 
 var isValidSudoku = function (board) {
