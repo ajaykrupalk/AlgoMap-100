@@ -1,3 +1,17 @@
+/**
+ * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ * Approach:
+ * 1. Initialize a set and iterate through all the elements in the row
+ * 2. If elements are already present in the set return false, else add to the set
+ * 3. Initialize a set and iterate through all the elements in the column
+ * 4. If elements are already present in the set return false, else add to the set
+ * 5. Initialize an array of all the starting row, column of the sub-boxes
+ * 6. Iterate from startRow to startRow+3 and startCol to startCol+3
+ * 7. Initialize a set and iterate through all the elements in the sub-boxes
+ * 8. If elements are already present in the set return false, else add to the set
+ */
+
 var isValidSudoku = function (board) {
     for(const r = 0; r < 9; r++){
         const seen = new Set()
