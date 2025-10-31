@@ -5,8 +5,8 @@
  * 1. Initialize two pointers: left = 0, right = nums.length - 1.
  * 2. Create a result array of the same size, filled with zeroes.
  * 3. While left <= right:
- * - If Math.abs(nums[left]) > Math.abs(nums[right]), set result[pos] = nums[left] ** 2 and increment left.
- * - Else, set result[pos] = nums[right] ** 2 and decrement right.
+ * - If Math.abs(nums[left]) > Math.abs(nums[right]), set result.push(nums[left] ** 2) and increment left.
+ * - Else, set result.push(nums[right] ** 2) and decrement right.
  * - Decrement pos.
  * 4. Return the result array.
  */
