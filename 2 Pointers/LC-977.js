@@ -8,7 +8,7 @@
  * - If Math.abs(nums[left]) > Math.abs(nums[right]), set result[pos] = nums[left] ** 2 and increment left.
  * - Else, set result[pos] = nums[right] ** 2 and decrement right.
  * - Decrement pos.
- * 5. Return the result array.
+ * 4. Return the result array.
  */
 var sortedSquares = function(nums) {
     const output = [];
