@@ -1,6 +1,7 @@
 /**
  * Time Complexity: O(n^2)
  * Space Complexity: O(1)
+ * Approach:
  * 1. Sort the input array nums in ascending order.
  * 2. Iterate over the array with index i from 0 to nums.length - 3.
  * 3. For each nums[i], skip it if it's the same as the previous number to avoid duplicates.
