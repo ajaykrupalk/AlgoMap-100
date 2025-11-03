@@ -1,3 +1,16 @@
+/**
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
+ * 1. Sort the input array nums in ascending order.
+ * 2. Iterate over the array with index i from 0 to nums.length - 3.
+ * 3. For each nums[i], skip it if it's the same as the previous number to avoid duplicates.
+ * 4. Initialize two pointers: left = i + 1 and right = nums.length - 1.
+ * 5. While left < right:
+ *    a. Compute the sum: total = nums[i] + nums[left] + nums[right].
+ *    b. If total == 0, record the triplet, then increment left and decrement right, skipping duplicates.
+ *    c. If total < 0, increment left to increase the sum.
+ *    d. If total > 0, decrement right to decrease the sum.
+ */
 var threeSum = function (nums) {
     nums.sort((a,b)=>a-b);
     const output = [];
