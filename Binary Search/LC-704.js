@@ -2,7 +2,6 @@
  * Time Complexity: O(log n)
  * Space Complexity: O(1)
  * Approach:
- * Approach:
  * 1. Initialize two pointers: `left = 0` and `right = nums.length - 1`.
  * 2. While `left <= right`:
  *    a. Compute the middle index: `mid = Math.floor((left + right) / 2)`.
