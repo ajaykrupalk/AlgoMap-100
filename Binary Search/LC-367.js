@@ -1,14 +1,14 @@
 /**
- * Time Complexity: O(n)
- * Space Complexity: O(1)
- * Approach:
- * 1. Initialize two pointers: `left = 1` and `right = num`.
- * 2. While `left <= right`:
- *    a. Compute the midpoint: `mid = Math.floor((left + right) / 2)`.
- *    b. Compute `mid * mid`.
- *    c. If `mid * mid === num`, return `true`.
- *    d. If `mid * mid < num`, the square is too small — set `left = mid + 1`.
- *    e. If `mid * mid > num`, the square is too large — set `right = mid - 1`.
+  Time Complexity: O(n)
+  Space Complexity: O(1)
+  Approach:
+  1. Initialize two pointers: `left = 1` and `right = num`.
+  2. While `left <= right`:
+     a. Compute the midpoint: `mid = Math.floor((left + right) / 2)`.
+     b. Compute `mid * mid`.
+     c. If `mid * mid === num`, return `true`.
+     d. If `mid * mid < num`, the square is too small — set `left = mid + 1`.
+     e. If `mid * mid > num`, the square is too large — set `right = mid - 1`.
  * 3. If the loop ends with no match, return `false`.
  */
 var isPerfectSquare = function(num) {
