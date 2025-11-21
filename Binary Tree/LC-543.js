@@ -17,8 +17,8 @@ var diameterOfBinary = function (root){
     function height (node){
         if(!node) return 0
 
-        const left = height(root.left)
-        const right = height(root.right)
+        const left = height(node.left)
+        const right = height(node.right)
         const diameter = left+right
 
         largestDiameter = Math.max(largestDiameter,diameter)
