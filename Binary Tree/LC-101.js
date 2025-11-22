@@ -7,5 +7,5 @@ var isSymmetric = function (root) {
         return isMirror(t1.left,t2.right) && isMirror(t1.right,t2.left)
     }
 
-    return isMirror(root,root)
+    return isMirror(root,rootgt)
 }
