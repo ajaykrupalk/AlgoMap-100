@@ -1,6 +1,6 @@
 /**
- * Time Complexity: O(m * n) where m and n are grid dimensions; each cell is visited once during DFS
- * Space Complexity: O(m * n) for the recursion call stack in worst case (when island spans entire grid)
+ * Time Complexity: O(m*n) where m and n are grid dimensions; each cell is visited once during DFS
+ * Space Complexity: O(m*n) for the recursion call stack in worst case (when island spans entire grid)
  * Approach:
  * 1. Store grid dimensions `m` (rows) and `n` (columns) for boundary checks.
  * 2. Initialize `maxArea` to 0 to track the largest island area found.
