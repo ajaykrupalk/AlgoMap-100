@@ -1,5 +1,5 @@
 /**
-  * Time Complexity: O(n) - single pass through the array
+ * Time Complexity: O(n) - single pass through the array
  * Space Complexity: O(n) - dp array of size n
  * Approach: 
  * Build a DP array where dp[i] represents the maximum money 
