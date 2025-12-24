@@ -6,7 +6,7 @@
 * 2. We initialize each `dp[i]` to 1 because the minimum length of increasing subsequence ending at any element is 1 (the element itself).
 * 3. We iterate through each element and for each element, we check all previous elements to see if we can extend the increasing subsequence.
 * 4. If `nums[i] > nums[j]`, it means we can append `nums[i]` to the increasing subsequence that ends with `nums[j]`. We update `dp[i]` accordingly.
-* 5. Finally, we
+* 5. Finally, we query the maximum value in the `dp` array which gives us the length of the longest increasing subsequence in the entire array.
 */
 function lengthOfLIS(nums) {
     // Edge case: empty array
